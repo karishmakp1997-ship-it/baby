@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby-Zone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="container-fluid d-flex justify-content-center mx-auto m-2 ">
+            <div class="changing-text text-center">
+                <span class="text1 fw-bold"><i class='bx bxs-smile fs-4' style='color:#c51515'></i> Autumn Winter 2025
+                    is here! Dress your little one soft, Breathable Fabric for
+                    Ultimate
+                    Comfort and style</span>
+                <span class="text2 fw-bold "><i class='bx bxs-offer fs-4'></i> Get 250 additional off on card value of
+                    $2999 and above</span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <img src="images/logo.png" class="img-fluid" style="height: 100px;" alt="logo">
+            <form class="d-flex" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control rounded-5" placeholder=" ⌕ Search Here"
+                        style="border: 2px solid black;">
+                </div>
+                <button class="btn btn-outline-success mx-2 rounded-5" style="border: 2px solid black;" type="submit"><i
+                        class='bx bx-microphone'></i></button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-lg-0" style="font-weight: 600; font-size: 16px;">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="forum.html">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="parenting.html">Parenting Classes</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#loginModal">Login</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#registerModal">Register</a></li>
+                        </ul>
+                    </li>
+
+                    <div class="modal fade" id="loginModal" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content rounded-4" style="background:#ffe0ef;">
+
+                                <div class="modal-header border-0">
+                                    <h5 class="modal-title mx-auto fw-bold">Log In</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <div class="modal-body row">
+                                    <div class="col-md-6">
+                                        <img src="images/sleeping.webp" class="img-fluid rounded" alt="">
+                                    </div>
+                                    <div class="col-md-6 ps-3">
+                                        <form>
+                                            <input type="email" class="form-control mb-3" placeholder="Email">
+                                            <input type="password" class="form-control mb-2" placeholder="Password">
+                                            <a href="#" class="d-block mb-3 text-end small text-danger">Forgot
+                                                password?</a>
+
+                                                
+                                            <button type="submit" class="btn btn-warning w-100 mb-3">Log In</button>
+
+                                            <p class="small text-center">Don't have an account?
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal"
+                                                    data-bs-dismiss="modal">Register</a>
+                                            </p>
+
+                                            <div class="text-center my-2">Or</div>
+
+                                            <button type="button" class="btn btn-outline-dark w-100 mb-2">
+                                                <img src="google.png" width="18" class="me-2"> Continue with Google
+                                            </button>
+                                            <button type="button" class="btn btn-outline-primary w-100">
+                                                <img src="facebook.png" width="18" class="me-2"> Continue with Facebook
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="registerModal" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content rounded-4" style="background:#ffe0ef;">
+
+                                <div class="modal-header border-0">
+                                    <h5 class="modal-title mx-auto fw-bold">Register</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <div class="modal-body row">
+                                    <div class="col-md-6">
+                                        <img src="images/mom.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                    <div class="col-md-6 ps-3">
+                                        <form>
+                                            <input type="text" class="form-control mb-3" placeholder="Full Name">
+                                            <input type="email" class="form-control mb-3" placeholder="Email">
+                                            <input type="password" class="form-control mb-3" placeholder="Password">
+                                            <input type="password" class="form-control mb-3"
+                                                placeholder="Confirm Password">
+
+                                            <div class="d-flex justify-content-between mb-3">
+                                                <button type="submit" class="btn btn-success">Register</button>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                            </div>
+
+                                            <p class="small text-center">Already have an account?
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
+                                                    data-bs-dismiss="modal">Login</a>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn position-relative">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="card.html">Card <i class='bx bx-cart-alt'></i></a>
+                        </li> <span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            0
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg" style="background-color:#FFB2E6; height:70px;">
+        <div class="container px-5">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link dropdown-toggle" href="baby.html" role="button" data-bs-toggle="dropdown">
+                            All Categories
+                        </a>
+                        <div class="dropdown-menu w-100 mt-0 p-4" style="background-color:#f8f0fc;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Baby Footwear</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Baby Booties</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids casual shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Breast Feeding</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Electric breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Manual breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Feeding shawls</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Maternity Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Stretch mark cream</a></li>
+                                            <li><a class="dropdown-item" href="#">Maternity pads</a></li>
+                                            <li><a class="dropdown-item" href="#">Disposable maternity panties</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 py-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link dropdown-toggle" href="baby.html" role="button" data-bs-toggle="dropdown">
+                            Baby Fashion
+                        </a>
+                        <div class="dropdown-menu w-100 mt-0 p-4" style="background-color:#f8f0fc;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Baby boys clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Baby Booties</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids casual shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby Booties</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids casual shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Baby girls clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Electric breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Manual breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Feeding shawls</a></li>
+                                            <li><a class="dropdown-item" href="#">Electric breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Manual breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Feeding shawls</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="toy.html">Toys</a></li>
+
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Footwear & Accessories </a>
+                        <div class="dropdown-menu w-100 mt-0 p-4" style="background-color:#f8f0fc;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Baby Footwear</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Baby Booties</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Kids footwear</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby Booties</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids casual shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Fashion Accessories</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Electric breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Manual breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Feeding shawls</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Mom & Baby Care
+                        </a>
+                        <div class="dropdown-menu w-100 mt-0 p-4" style="background-color:#f8f0fc;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Baby Footwear</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Baby Booties</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids casual shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Breast Feeding</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Electric breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Manual breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Feeding shawls</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Maternity Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Stretch mark cream</a></li>
+                                            <li><a class="dropdown-item" href="#">Maternity pads</a></li>
+                                            <li><a class="dropdown-item" href="#">Disposable maternity panties</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 py-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">New Baby Clothing</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">New born onesies & rompers</a></li>
+                                            <li><a class="dropdown-item" href="#">New born nightwear & sleepsuits</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">New born baby sets & suits</a></li>
+                                            <li><a class="dropdown-item" href="#">New born baby dresses & frocks</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Furniture and Bedding</a>
+                        <div class="dropdown-menu w-100 mt-0 p-4" style="background-color:#f8f0fc;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Baby Footwear</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Baby Booties</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Kids footwear</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby Booties</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids casual shoes</a></li>
+                                            <li><a class="dropdown-item" href="#">Kids sneakers & sports shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">Fashion Accessories</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Electric breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Manual breast pump</a></li>
+                                            <li><a class="dropdown-item" href="#">Feeding shawls</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Rental Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Offers</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <a href="index.html" class="text-muted text-black" style="text-decoration: none;">Home</a>/<a
+            href="contact.html" class="text-black" style="text-decoration: none;">Contact <div class="row ">
+                <div class="col-md-5 col-12 mx-5" style="font-weight: 600;">
+                    <h4 class="fw-bold">Reach Us</h4>
+                    <div class="text-center border-3 border-dark border rounded-3 my-4">
+                        <p><i class='bx bx-phone fs-3'></i> +123-657-7657</p>
+                        <p><i class='bx bx-envelope fs-3'></i>support@BabyZone.com</p>
+                    </div>
+
+                    <button class="text-black text-center border-dark border border-3 rounded-3 my-4"
+                        style="width: 600px;">
+                        <a href="track.html" class="text-black" style="text-decoration: none;">
+                            <p><i class='bx bxs-bus-school fs-4'></i>Track order &</p>
+                            <p> Cancel order</p>
+                        </a>
+                    </button>
+
+                    <div class="text-center border-3 border-dark border rounded-3 my-4">
+                        <p><i class='bx bx-money fs-3'></i> Exchange and</p>
+                        <p> Refund policy</p>
+                    </div>
+                    <button type="button" class="btn btn-warning rounded-2 px-5" data-toggle="modal"
+                        data-target="#liveChatModal">
+                        Live Chat
+                    </button>
+
+                    <div class="modal fade" id="liveChatModal" tabindex="-1" aria-labelledby="liveChatLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header border-0">
+                                    <h5 class="modal-title w-100 text-center" id="liveChatLabel"></h5>
+                                    <button type="button" class="close text-white" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p class="font-weight-bold mb-4">Messages are end-to-end encrypted</p>
+                                    <h5 class="mb-5">Start asking what do you think!</h5>
+                                    <div class="mb-3 text-left">
+                                        <span class="font-weight-bold">Say hello to start</span>
+                                        <button type="button" class="btn btn-outline-light btn-block mt-2">Hello
+                                            !</button>
+                                    </div>
+                                    <form>
+                                        <div class="d-flex form-group mb-2">
+                                            <input type="text" class="form-control text-white"
+                                                placeholder="Type message ">
+                                            <button class="send-btn"><i class='bx bxs-send'></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="fw-bold">Contact Form</h4>
+                    <div class="container border border-dark border-2 p-5" style="background-color: #FFB2E6;">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputname" class="form-label">Name</label>
+                                <input type="name" class="form-control p-3" id="exampleInputname" placeholder="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control p-3" id="exampleInputEmail1"
+                                    placeholder="Email Id">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control p-3" id="exampleInputPassword1"
+                                    placeholder="Phone No">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Queries</label>
+                                <textarea class="form-control p-3" id="exampleFormControlTextarea1"
+                                    placeholder="Your Message" rows="3"></textarea>
+                            </div>
+                            <div class="text-center"><button type="submit" class="btn btn-warning px-5">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="container my-5 border-dark border border-1 p-5" style="background-color: #FFB2E6;">
+        <h3 class="text-center">FAQ's</h3>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" style="background-color: #FFB2E6;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        Where are the offices of Baby-Zone Located?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first items accordion body.</strong> It is shown by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" style="background-color: #FFB2E6;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        How do i know my order has been confirmed? </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second items accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" style="background-color: #FFB2E6;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        Are there any other hidden charges like octroi or entry tax? </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third items accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" style="background-color: #FFB2E6;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        How long will it take to receive my order? </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong> CSS or overriding our default variables. Its also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the
+                            transition
+                            does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" style="background-color: #FFB2E6;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        Will my GST amount be refunded on order cancellation and returns? </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>in adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You
+                            can
+                            modify any of this
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid" style="background-color:#FFB2E6; height:50vh;">
+            <div class="row p-5">
+                <div class="col-2">
+                    <img src="images/logo.png" style="height: 100px;">
+                    <p>4th Street Pallavaram,<br>Near bus stand <br>Madurai-234567</p>
+                </div>
+                <div class="col-2 ">
+                    <h5 class="fw-bold">Top Categories</h5>
+                    <p>Baby Fashion <br>Toys <br>Footware & Accessories <br>Moms &Baby Care <br>Furniture & Bedding
+                        <br>Rental services
+                    </p>
+                </div>
+                <div class="col-2 ">
+                    <h5 class="fw-bold">Customer Support</h5>
+                    <p>Help &Contact Us <br>Delivery Information <br> Track your order <br>Return &Exchange
+                        <br>Promotion Terms and Condition
+                        <br>Terms and Condition
+                    </p>
+                </div>
+                <div class="col-2 ">
+                    <h5 class="fw-bold">Useful Links</h5>
+                    <p>Store Finder<br>Sitemap<br>Fees & Payment policy</p>
+                </div>
+                <div class="col-2 ">
+                    <h5 class="fw-bold">About Baby Zone</h5>
+                    <p>Privacy policy <br>Terms and Condition</p>
+                </div>
+                <div class="col-2 ">
+                    <h5 class="fw-bold">Social Media</h5>
+                    <p class="fs-3"><i class='bx bxl-facebook-square' style='color:#2f0f91'></i>
+                        <i class='bx bxl-instagram-alt' style='color:#d12d10'></i>
+                        <i class='bx bxl-twitter' style='color:#10d186'></i>
+                        <i class='bx bxl-youtube' style='color:#d11110'></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

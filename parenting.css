@@ -1,0 +1,66 @@
+.changing-text {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color:#FFD83B;
+}
+
+.changing-text span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    animation: fade 4s infinite;
+}
+.changing-text .text1 {
+    animation-delay: 0s;
+}
+
+.changing-text .text2 {
+    animation-delay: 2s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+.nav-item a:hover{
+color: red;
+}
+
+@media (max-width: 576px) {
+.scroll-cards .card {
+    width: 140px;
+    margin-right: 7px;
+  }
+  .card img {
+    height: 90px;
+    width: 120px;
+    border-radius: 6px;
+  }
+  .changing-text {
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
