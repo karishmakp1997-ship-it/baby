@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="foot.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -583,433 +583,274 @@
         </div>
     </nav>
 
+    <small class="m-4">Home / baby fashion</small>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-3">
 
-    <div class="container-fluid my-3" style="background-color:#FFB2E6; height: 50vh;">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container my-2">
-                        <div class="row">
-                            <div class="col-md-2 col-12 mx-4">
-                                <img src="images/pink1.jpg" class="img-fluid w-100 rounded-3 mt-4"
-                                    style="height:300px;box-shadow: 5px 5px 10px rgba(0,0,0,0.5); ">
-                            </div>
-                            <div class="col-md-2 col-12 mx-4">
-                                <img src="images/blue.jpg" class="img-fluid w-100 rounded-3 mt-4"
-                                    style="height:300px;box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
-                            </div>
-                            <div class="col-md-2 col-12 mx-4">
-                                <img src="images/seat.jpg" class="img-fluid w-100 rounded-3"
-                                    style="height:300px;box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
-                            </div>
-                            <div class="col-md-2 col-12 text-center my-5 mx-auto">
-                                <h2 class="bg-dark text-white text-center">Flat 30 % OFF</h2>
-                                <p class="fw-bold">New Launch</p>
-                                <p style="font-size: 18px; font-weight: 600;">Stroller Car Seats & Much More</p>
-                                <button class="bg-warning border-0 py-2 px-4 rounded-3 fw-bold fs-5">Shop Now</button>
-                            </div>
-                        </div>
+                <div class="filter-box">
+                    <h4 class="fw-bold">Filters</h4>
+                    <h6 class="fw-semibold">Gender</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="boy">
+                        <label class="form-check-label" for="boy">Boy</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="girl">
+                        <label class="form-check-label" for="girl">Girl</label>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row my-2">
-                        <div class="col-md-4 col-12">
-                            <img src="images/bed.jpg" class="img-fluid w-100" style="height:350px;">
-                        </div>
-                        <div class="col-md-4 col-12 text-center my-5">
-                            <h1 class="bg-dark text-white">Flat 30% OFF</h1> <br>
-                            <p class="fw-bold fs-3">Baby Bed and Accessories</p>
-                            <button class="bg-warning border-0 py-2 px-4 rounded-3 fw-bold fs-5">Shop Now</button>
-                        </div>
-                        <div class="col-md-4 col-12">
-                            <img src="images/bag.jpg" class="img-fluid w-100" style="height:350px;">
+
+                <div class="filter-box">
+                    <h6>Age group</h6>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">0-6 months</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">7-12 months</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Kids</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Adults</label></div>
+                </div>
+
+                <!-- Brands -->
+                <div class="filter-box">
+                    <h6>Brands</h6>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Babyhug</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Babyoye</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Kookie Kids</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Carter’s</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Dapper Dudes</label></div>
+                </div>
+
+                <!-- Color -->
+                <div class="filter-box">
+                    <h6>Color</h6>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">🔵Blue</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">⚪White</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">🔴Red</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Multicolor</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">🟡Yellow</label></div>
+                </div>
+
+                <!-- Discount -->
+                <div class="filter-box">
+                    <h6>Discount</h6>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Upto 10%</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">10%-20%</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">20%-30%</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">30%-40%</label></div>
+                </div>
+
+                <!-- Price -->
+                <div class="filter-box">
+                    <h6>Price</h6>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">₹ 0-250</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">₹ 250-1000</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">₹ 1000-3000</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">₹ 3000-5000</label></div>
+                </div>
+
+                <!-- Curated -->
+                <div class="filter-box">
+                    <h6>Curated collection</h6>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Trending now</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Fast moving</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Extra warm</label></div>
+                </div>
+
+                <!-- Premium -->
+                <div class="filter-box">
+                    <div class="form-check"><input class="form-check-input" type="checkbox"> <label
+                            class="form-check-label">Show premium products</label></div>
+                </div>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="col-lg-9">
+
+                <!-- Heading + Sort -->
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="mb-0 fs-4 mb-4 fw-bold">Footware & Accessories</h5>
+                    <select class="form-select w-auto">
+                        <option>New arrivals</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                    </select>
+                </div>
+
+                <div class="row g-3">
+
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot1.webp" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🟡🔴🔵</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot2.webp" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🟡⚫🔵</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot3.jpg" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🟡⚫🔴</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot4.png" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🔴⚫🔵</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot5.png" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🟡⚫🔵</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot6.png" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🟡🔴🔵</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot7.png" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🟡⚫🔵</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot8.png" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🟡🔴🔵</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card border border-1 border-dark">
+                            <img src="images/foot9.png" class="img-fluid mx-5" style="width:200px;height: 200px;"
+                                alt="poto2"> <i class='bx bx-heart wishlist-heart'></i>
+                            <p class="fw-semibold">Cotton kneet full sleeve t-shirt with <br> frock
+                                floral print-white & Green</p>
+                            <p>Price: ₹830</p>
+                            <p>Age 0-12m, 3-4y, 4-5</p>
+                            <p>color:🟡⚫🔵</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
+                                <button class="bg-warning border-0 rounded-3 px-3">Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav class="mt-4">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><span class="page-link">...</span></li>
+                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="container-fluid my-5">
-        <h3 class="text-center text-black fw-bold">Categories</h3>
-        <div class="container-fluid my-5">
-            <div class="row ">
-                <div class="col-2">
-                    <img src="images/boy.jpg" class="img-fluid"
-                        style="border-radius: 50%; width: 170px; height: 230px; border: 6px solid pink;" alt="boy">
-                    <p class="fw-bold px-5 py-2">Boys Fashion</p>
-                </div>
-                <div class="col-2">
-                    <img src="images/twin.jpg" class="img-fluid"
-                        style="border-radius: 50%;width: 170px; height: 230px; border: 6px solid pink;" alt="boy">
-                    <p class="fw-bold px-5 py-2">Girls Fashion</p>
-                </div>
-                <div class="col-2">
-                    <img src="images/shoe.webp" class="img-fluid"
-                        style="border-radius: 50%; width: 170px; height: 230px; border: 6px solid pink;" alt="boy">
-                    <p class="fw-bold px-5 py-2"> Foot Wear</p>
-                </div>
-                <div class="col-2">
-                    <img src="images/colors.jpg" class="img-fluid"
-                        style="border-radius: 50%; width: 170px; height: 230px; border: 6px solid pink;" alt="boy">
-                    <p class="fw-bold px-5 py-2">Accessories</p>
-                </div>
-                <div class="col-2">
-                    <img src="images/bag.jpg" class="img-fluid"
-                        style="border-radius: 50%; width: 170px; height: 230px; border: 6px solid pink;" alt="boy">
-                    <p class="fw-bold px-5 py-2">Toys</p>
-                </div>
-                <div class="col-2">
-                    <img src="images/bed.jpg" class="img-fluid"
-                        style="border-radius: 50%; width: 170px; height: 230px; border: 6px solid pink;" alt="boy">
-                    <p class="fw-bold px-5 py-2">Beds</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <h4 class="fw-bold">New Arrivals</h4>
-        <div class="container">
-            <div class="row my-4">
-                <div class="col-md-3 col-12">
-                    <div class="card" style="width:18rem; height:350px; border: 1px solid black;">
-                        <img src="images/red.webp" class="img-fluid card-img-top mx-auto py-3"
-                            style="width:150px; height:220px;">
-                        <div class="card-body py-0 px-1">
-                            <h5 class="card-title fw-bold">Cotton SeerSucker Frill Dress</h5>
-                            <p class="card-text">MRP:$2099</p>
-                            <div class="d-flex justify-content-end p-2"><button
-                                    class="btn btn-warning px-5">Buy</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12">
-                    <div class="card" style="width:18rem; height:350px; border: 1px solid black;">
-                        <img src="images/shoe.webp" class="img-fluid card-img-top mx-auto py-3"
-                            style="width:150px; height:220px;">
-                        <div class="card-body py-0 px-1">
-                            <h5 class="card-title fw-bold">Cotton SeerSucker Frill Dress</h5>
-                            <p class="card-text">MRP:$2099</p>
-                            <div class="d-flex justify-content-end p-2"><button
-                                    class="btn btn-warning px-5">Buy</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12">
-                    <div class="card" style="width:18rem; height:350px; border: 1px solid black;">
-                        <img src="images/pink3.webp" class="img-fluid card-img-top mx-auto py-3"
-                            style="width:150px; height:220px;">
-                        <div class="card-body py-0 px-1">
-                            <h5 class="card-title fw-bold">Cotton SeerSucker Frill Dress</h5>
-                            <p class="card-text">MRP:$2099</p>
-                            <div class="d-flex justify-content-end p-2"><button
-                                    class="btn btn-warning px-5">Buy</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12">
-                    <div class="card" style="width:18rem; height:350px; border: 1px solid black;">
-                        <img src="images/toy.webp" class="img-fluid card-img-top mx-auto py-3"
-                            style="width:150px; height:220px;">
-                        <div class="card-body py-0 px-1">
-                            <h5 class="card-title fw-bold">Cotton SeerSucker Frill Dress</h5>
-                            <p class="card-text">MRP:$2099</p>
-                            <div class="d-flex justify-content-end p-2"><button
-                                    class="btn btn-warning px-5">Buy</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12 my-4">
-                    <div class="card" style="width:18rem; height:350px; border: 1px solid black;">
-                        <img src="images/pamper.webp" class="img-fluid card-img-top mx-auto py-3"
-                            style="width:150px; height:220px;">
-                        <div class="card-body py-0 px-1">
-                            <h5 class="card-title fw-bold">Cotton SeerSucker Frill Dress</h5>
-                            <p class="card-text">MRP:$2099</p>
-                            <div class="d-flex justify-content-end p-2"><button
-                                    class="btn btn-warning px-5">Buy</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12 my-4">
-                    <div class="card" style="width:18rem; height:350px; border: 1px solid black;">
-                        <img src="images/stroll.webp" class="img-fluid card-img-top mx-auto py-3"
-                            style="width:150px; height:220px;">
-                        <div class="card-body py-0 px-1">
-                            <h5 class="card-title fw-bold">Cotton SeerSucker Frill Dress</h5>
-                            <p class="card-text">MRP:$2099</p>
-                            <div class="d-flex justify-content-end p-2"><button
-                                    class="btn btn-warning px-5">Buy</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12 my-4">
-                    <div class="card" style="width:18rem; height:350px; border: 1px solid black;">
-                        <img src="images/stroll1.webp" class="img-fluid card-img-top mx-auto py-3"
-                            style="width:150px; height:220px;">
-                        <div class="card-body py-0 px-1">
-                            <h5 class="card-title fw-bold">Cotton SeerSucker Frill Dress</h5>
-                            <p class="card-text">MRP:$2099</p>
-                            <div class="d-flex justify-content-end p-2"><button
-                                    class="btn btn-warning px-5">Buy</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12 my-4">
-                    <div class="card" style="width:18rem; height:350px; border: 1px solid black;">
-                        <img src="images/pink.webp" class="img-fluid card-img-top mx-auto py-3"
-                            style="width:150px; height:220px;">
-                        <div class="card-body py-0 px-1">
-                            <h5 class="card-title fw-bold">Cotton SeerSucker Frill Dress</h5>
-                            <p class="card-text">MRP:$2099</p>
-                            <div class="d-flex justify-content-end p-2"><button
-                                    class="btn btn-warning px-5">Buy</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container d-flex py-4" style="background-color: #FFB2E6; height: 50vh;">
-            <div class="scroll-cards flex-grow-1">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <img src="images/pink.webp" class="mb-2" alt="poto2">
-                        <p>Cocoon Stroller Mosquito<br>Net & Reversible Handle</p>
-                        <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
-                    </div>
-                </div>
-                <div class="card text-center">
-                    <div class="card-body">
-                        <img src="images/stroll.webp" class="mb-2" alt="poto2">
-                        <p>Comffe Ride Stroller<br>Net & Reversible Handle</p>
-                        <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
-                    </div>
-                </div>
-                <div class="card text-center">
-                    <div class="card-body">
-                        <img src="images/shoe.webp" class="mb-2" alt="poto2">
-                        <p>Cute Walk Ny BabyHug <br>best gift set </p>
-                        <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
-                    </div>
-                </div>
-
-
-                <div class="card text-center">
-                    <div class="card-body">
-                        <img src="images/toys.webp" class="mb-2" alt="poto2">
-                        <p>My Fun Dough Jumbo<br>Return Gift set</p>
-                        <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
-                    </div>
-                </div>
-
-
-                <div class="card text-center">
-                    <div class="card-body">
-                        <img src="images/cycle.webp" class="mb-2" alt="poto2">
-                        <p>Cocoon Stroller Mosquito<br>Net & Reversible Handle</p>
-                        <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
-                    </div>
-                </div>
-
-
-                <div class="card text-center">
-                    <div class="card-body">
-                        <img src="images/cycle1.webp" class="mb-2" alt="poto2">
-                        <p>Cocoon Str<br>Net & Reversible Handle</p>
-                        <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
-                    </div>
-                </div>
-
-                <div class="card text-center">
-                    <div class="card-body">
-                        <img src="images/seat1.webp" class="mb-2" alt="poto2">
-                        <p>Cocoon Stroller Mosquito<br>Net & Reversible Handle</p>
-                        <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
-                    </div>
-                </div>
-
-
-                <div class="card text-center">
-                    <div class="card-body">
-                        <img src="images/black.webp" class="mb-2" alt="poto2">
-                        <p>Cocoon Stroller Mosquito<br>Net & Reversible Handle</p>
-                        <button class="bg-warning border-0 rounded-3 px-3">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container my-5">
-            <h3 class="text-center fw-bold">Top Brands</h3>
-            <div class="d-flex my-5">
-                <div class="scroll-cards flex-grow-1">
-                    <div class="cards text-center">
-                        <div class="card-bodyy">
-                            <img src="images/images.png" class="mb-2 w-100" alt="poto2">
-                        </div>
-                    </div>
-                    <div class="cards text-center">
-                        <div class="card-bodyy">
-                            <img src="images/Baby-Product-Manufacturers-logo-8-1024x301.webp" class="mb-2 w-100"
-                                alt="poto2">
-                        </div>
-                    </div>
-                    <div class="cards text-center">
-                        <div class="card-bodyy">
-                            <img src="images/images (6).png" class="mb-2 w-100" alt="poto2">
-                        </div>
-                    </div>
-                    <div class="cards text-center">
-                        <div class="card-bodyy">
-                            <img src="images/Johnsons-Baby-Company-Logo.jpg" class="mb-2 w-100" alt="poto2">
-                        </div>
-                    </div>
-                    <div class="cards text-center">
-                        <div class="card-bodyy">
-                            <img src="images/epp.jpg" class="mb-2 w-100" alt="poto2">
-                        </div>
-                    </div>
-                    <div class="cards text-center">
-                        <div class="card-bodyy">
-                            <img src="images/images (6).png" class="mb-2 w-100" alt="poto2">
-                        </div>
-                    </div>
-                    <div class="cards text-center">
-                        <div class="card-bodyy">
-                            <img src="images/Baby-Product-Manufacturers-logo-8-1024x301.webp" class="mb-2 w-100"
-                                alt="poto2">
-                        </div>
-                    </div>
-                    <div class="cards text-center">
-                        <div class="card-bodyy">
-                            <img src="images/Baby-Product-Manufacturers-logo-8-1024x301.webp" class="mb-2 w-100"
-                                alt="poto2">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="container-wrap py-5 mx-4">
-            <h4 class="text-center mb-4 fw-bold">Our happy customer</h4>
-
-            <div class="row g-4 my-5">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="test-card">
-                        <div class="avatar">
-                            <img src="images/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"
-                                class="w-100" alt="Bosky">
-                        </div>
-
-                        <div class="name-stars text-center mt-2">
-                            <div class="name">Bosky</div>
-                            <div class="stars text-warning">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                        </div>
-                        <div class="text">
-                            Very fast service and products are genuine. Definitely I am satisfied !
-                        </div>
-                        <div class="thumb-icons">
-                            <span><i class="bi bi-hand-thumbs-up"></i> 5</span>
-                            <span><i class="bi bi-chat"></i> 0</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="test-card">
-                        <div class="avatar">
-                            <img src="images/avatar.jpg" class="w-100" alt="Tulip">
-                        </div>
-
-                        <div class="name-stars text-center mt-2">
-                            <div class="name">Tulip</div>
-                            <div class="stars text-warning">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                        </div>
-                        <div class="text">
-                            Amazing products. Reasonable prices. Gr8 customer service. Cheers !!!!
-                        </div>
-
-                        <div class="thumb-icons">
-                            <span class="me-1"><i class="bi bi-hand-thumbs-up"></i> 5</span>
-                            <span><i class="bi bi-chat"></i> 0</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="test-card">
-                        <div class="avatar">
-                            <img src="images/avatar2.jpg" class="w-100" alt="Deepa">
-                        </div>
-
-                        <div class="name-stars text-center mt-2">
-                            <div class="name">Deepa</div>
-                            <div class="stars text-warning">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                        </div>
-                        <div class="text">
-                            Great range of products right from new-born essentials — Excellent product quality and
-                            delivery.
-                        </div>
-
-                        <div class="thumb-icons">
-                            <span class="me-1"><i class="bi bi-hand-thumbs-up"></i> 5</span>
-                            <span><i class="bi bi-chat"></i> 0</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="test-card">
-                        <div class="avatar">
-                            <img src="images/thumb-1920-375571.png" class="w-100" alt="Moshin">
-                        </div>
-
-                        <div class="name-stars text-center mt-2">
-                            <div class="name">Moshin</div>
-                            <div class="stars text-warning">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i>
-                            </div>
-                        </div>
-                        <div class="text">
-                            Great site for baby product, i m shopping here since 2012. The quality of product and
-                            services is never changed.
-                        </div>
-                        <div class="thumb-icons">
-                            <span class="me-1"><i class="bi bi-hand-thumbs-up"></i> 5</span>
-                            <span><i class="bi bi-chat"></i>0</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="view-more-wrap d-flex justify-content-end">
-                <button class="view-more-btn bg-warning border-0 rounded-3 px-4 py-2">View More</button>
-            </div>
         </div>
 
         <footer>
